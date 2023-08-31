@@ -1,0 +1,98 @@
+.bold {
+  font-weight: 700;
+}
+.italic {
+  font-style: italic;
+}
+.transparent {
+  color: transparent;
+}
+/* -------------------------------------------------------------------------- */
+.gray-2 {
+  background-color: #fafafa;
+}
+/* -------------------------------------------------------------------------- */
+.red-1 {
+  background-color: #fff1f0;
+}
+.red-2 {
+  background-color: #ffccc7;
+}
+/* -------------------------------------------------------------------------- */
+.volcano-1 {
+  background-color: #fff2e8;
+}
+.volcano-2 {
+  background-color: #ffd8bf;
+}
+/* -------------------------------------------------------------------------- */
+.orange-1 {
+  background-color: #fff7e6;
+}
+.orange-2 {
+  background-color: #ffe7ba;
+}
+/* -------------------------------------------------------------------------- */
+.gold-1 {
+  background-color: '#fffbe6';
+}
+.gold-2 {
+  background-color: '#fff1b8';
+}
+/* -------------------------------------------------------------------------- */
+.yellow-1 {
+  background-color: #feffe6;
+}
+.yellow-2 {
+  background-color: #ffffb8;
+}
+/* -------------------------------------------------------------------------- */
+.lime-1 {
+  background-color: #fcffe6;
+}
+.lime-2 {
+  background-color: #f4ffb8;
+}
+/* -------------------------------------------------------------------------- */
+.green-1 {
+  background-color: #f6ffed;
+}
+.green-2 {
+  background-color: #d9f7be;
+}
+/* -------------------------------------------------------------------------- */
+.cyan-1 {
+  background-color: #e6fffb;
+}
+.cyan-2 {
+  background-color: #b5f5ec;
+}
+/* -------------------------------------------------------------------------- */
+.blue-1 {
+  background-color: #e6f7ff;
+}
+.blue-2 {
+  background-color: #bae7ff;
+}
+/* -------------------------------------------------------------------------- */
+.geekblue-1 {
+  background-color: #f0f5ff;
+}
+.geekblue-2 {
+  background-color: #d6e4ff;
+}
+/* -------------------------------------------------------------------------- */
+.purple-1 {
+  background-color: #f9f0ff;
+}
+.purple-2 {
+  background-color: #efdbff;
+}
+/* -------------------------------------------------------------------------- */
+.magenta-1 {
+  background-color: #fff0f6;
+}
+.magenta-2 {
+  background-color: #ffd6e7;
+}
+/* -------------------------------------------------------------------------- */

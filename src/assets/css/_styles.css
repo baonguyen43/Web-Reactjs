@@ -1,0 +1,97 @@
+/** *********************************************
+ * object
+ * ********************************************* */
+/* screen */
+/* valuable */
+/* *********************************************
+ * components 
+ * ********************************************* */
+/* *********************************************
+ * utils
+ * ********************************************* */
+/* ********************************************
+ * ames-scrollbar 
+ */
+.ames-scrollbar {
+  overflow-y: scroll;
+}
+.ames-scrollbar::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 5px;
+  height: 18px;
+}
+.ames-scrollbar::-webkit-scrollbar-thumb {
+  height: 6px;
+  border-left: 6px solid #09386d;
+  background-clip: padding-box;
+  -webkit-box-shadow: inset -1px -1px 0px rgba(0, 0, 0, 0.05), inset 1px 1px 0px rgba(0, 0, 0, 0.05);
+}
+.ames-scrollbar::-webkit-scrollbar-button {
+  width: 0;
+  height: 0;
+  display: none;
+}
+.ames-scrollbar::-webkit-scrollbar-corner {
+  background-color: transparent;
+}
+
+.ames__btn {
+  padding: 10px 2em;
+  border: none;
+  color: #fff;
+  margin: 0px 5px;
+  background: #172b4d;
+  min-height: 40px;
+  border-radius: 2em;
+}
+
+.ames__btn:hover,
+.ames__btn:focus,
+.ames__btn:active 
+{
+  background: #172b4d;
+  color: #fff;
+}
+
+/* ********************************************
+ * record__result
+ */
+.record__result {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 10px;
+  margin-top: 2em;
+  border-top: 1px solid #d3d4d6;
+}
+.record__result--content {
+  background: #ffffff;
+  padding: 10px;
+  border: 0;
+  cursor: pointer;
+  outline: none;
+  border-radius: 4px;
+  margin: 2px;
+}
+.record__result--listen {
+  width: 52px;
+  height: 52px;
+}
+.record__result--rate {
+  padding: 0;
+}
+.record__result--btn-next {
+  padding: 15px;
+}
+.record__result--btn-reset {
+  padding: 12px;
+}
+.record__result--btn-score {
+  padding: 15px;
+}
+
+.wrap_VOA:hover {
+  opacity: 0.7;
+}
+
+/*# sourceMappingURL=_styles.css.map */

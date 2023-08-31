@@ -1,0 +1,32 @@
+.boxOnechoice {
+  /* Mặc định chưa chọn */
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 8px;
+  border: 2px dotted gray;
+  background-color: #b1d9f533;
+}
+.boxOnechoice:hover.boxOnechoiceHover {
+  /* Khi Đưa chuột vào */
+  background-color: #7bb8e84d;
+  border: 2px dotted #4285f4;
+}
+.boxOnechoiceClick {
+  /* Khi chọn */
+  border: 2px solid #4285f4;
+  background-color: #6aafe44d;
+}
+
+/* Đúng sai */
+
+.onchoiceTrue {
+  border: 2px solid #2ecc71;
+  background-color: rgba(18, 204, 113, 0.3);
+}
+.onchoiceFalse {
+  border: 2px solid #e74c3c;
+  background-color: rgba(231, 76, 60, 0.3);
+}

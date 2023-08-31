@@ -1,0 +1,59 @@
+/* ------------------------- Sidenav ------------------------- */
+
+.mysidenav {
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0px;
+    right: 0px;
+    /* Màu hệ thống #022F63 */
+    background-color: #021d63;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    text-align: center;
+}
+
+.mysidenav .closebtn {
+    position: absolute;
+    top: 0px;
+    right: 10px;
+    font-size: 36px;
+    cursor: pointer;
+    color: #818181;
+}
+
+.mysidenav .closebtn:hover {
+    color: #f1f1f1;
+}
+
+.mysidenav .title {
+    font-size: 25px;
+    color: #f1f1f1;
+    margin-top: 11px; /* Baseline with Homepage >> book >> session >> unit >> exercise */
+    margin-bottom: 6px; /* Baseline assignments with exercise */
+}
+
+.mysidenav .content {
+    padding: 15px;
+    /* 109 = screen - title - closebtn */
+    /* 124 = 109 + 15 padding-botom */
+    height: calc(100vh - 124px);
+    overflow-y: auto;
+}
+
+/* ------------------------- Menu icon ------------------------- */
+
+.main {
+    font-size: 19px;
+    text-align: right;
+}
+
+.main i {
+    color: #f1f1f1;
+    cursor: pointer;
+}
+
+.main i:hover {
+    color: white;
+}

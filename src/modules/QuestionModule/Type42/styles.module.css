@@ -1,0 +1,6 @@
+.selectedSpan{
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+
+  padding: 4px 
+}

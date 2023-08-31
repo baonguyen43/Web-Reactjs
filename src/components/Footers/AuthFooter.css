@@ -1,0 +1,23 @@
+.footer-item {
+  color: white;
+  transition: all 0.35s ease-in-out;
+}
+
+.footer-item:hover {
+  color: rgb(166, 172, 180);
+}
+
+@media only screen and (min-height:937px) {
+
+  .footer_container {
+    padding-top: 70px;
+  }
+}
+
+@media only screen and (max-height: 936px) {
+
+  .footer_container {
+    padding-block: 5px;
+  }
+}
+

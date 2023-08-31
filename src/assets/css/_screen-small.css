@@ -1,0 +1,24 @@
+/** *********************************************
+ * object
+ * ********************************************* */
+/* screen */
+/* valuable */
+/* *********************************************
+ * components 
+ * ********************************************* */
+/* *********************************************
+ * utils
+ * ********************************************* */
+@media only screen and (min-width: 576px) {
+  .ames__btn {
+    padding: 10px 2em;
+    border: none;
+    color: #fff;
+    margin: 0px 5px;
+    background: #11CDEF;
+    min-height: 40px;
+    border-radius: 2em;
+  }
+}
+
+/*# sourceMappingURL=_screen-small.css.map */

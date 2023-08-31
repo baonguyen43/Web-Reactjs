@@ -1,0 +1,13 @@
+/* thay đổi cách hiển thị của đường dẫn trên giao diện của GIÁO VIÊN.
+    VD: HOME PAGE > QUẢN LÝ BÀI TẬP
+ */
+.simple-header-teacher > ol > li:first-child::before {
+  content: "" !important;
+}
+
+.simple-header-teacher > ol > li::before {
+  display: inline-block;
+  padding-right: 0.5rem;
+  color: #8898aa;
+  content: ">" !important;
+}

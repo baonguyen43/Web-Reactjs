@@ -1,0 +1,10 @@
+.range-picker tr,
+th,
+td {
+  border: none !important;
+  text-align: center;
+}
+
+.ant-picker-cell-inner {
+  text-align: center;
+}

@@ -1,0 +1,13 @@
+/* thay đổi cách hiển thị của đường dẫn trên giao diện.
+    VD: HOME PAGE > Unlock 1 > Sessions > Unit 1: People | Leson 1 | Assignments > Exercise 1
+ */
+ol > li::before {
+    display: inline-block;
+    padding-right: 0.5rem;
+    color: #8898aa;
+    content: ">" !important;
+}
+/* Tăng khoảng cách dòng tạm thời bài mindset 1B-Lesson 1: ex 2 */
+.marker-yellow{
+    line-height: 2.5;
+}

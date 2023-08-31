@@ -1,0 +1,51 @@
+.container {
+  flex: 1;
+  display: flex;
+}
+.wordContainer {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 14px 0;
+  min-height: 44px;
+}
+.table {
+  height: calc(100% - 72px);
+  overflow-y: auto;
+  /* Màu cũ #DF98C5 */
+  border-top: 2px #EAD5E1 solid;
+  border-bottom: 2px #EAD5E1 solid;
+}
+.centerColumn {
+  border-style: solid;
+  border-width: 0px;
+  border-left-width: 2px;
+  border-right-width: 2px;
+  color:aliceblue;
+  border-color: #EAD5E1;
+}
+.columnContainer {
+  /* border-width: 0px;
+  border-style: solid;
+  border-color: #EAD5E1; */
+}
+.columnHeader {
+  /* min-height: 70px; */
+  text-align: center;
+  border-width: 0px;
+  border-style: solid;
+  border-color: #EAD5E1;
+  border-bottom-width: 2px;
+  color: black;
+}
+.item {
+  padding: 14px;
+  font-weight: 500;
+  text-align: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.colortextdr3{
+  color: aliceblue;
+}

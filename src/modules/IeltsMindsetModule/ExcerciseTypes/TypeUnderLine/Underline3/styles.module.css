@@ -1,0 +1,16 @@
+
+.selectedSpan{
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  padding-bottom: 4px;
+  color: #11cdef;
+}
+
+.contentContainer{
+  display:flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.item{
+  flex-direction: column;
+}
